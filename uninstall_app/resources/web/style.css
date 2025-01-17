@@ -1,0 +1,152 @@
+/*Font Declarations*/
+
+@font-face {
+    font-family: 'Pusab';
+    src: url('../fonts/big_font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/small_font.ttf') format('truetype');
+}
+
+/*Big Parts*/
+
+body {
+    font-family: 'Aller';
+    margin: 0;
+    background-color: #0037ff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #0037ff;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #0037ff;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+
+address {
+    text-align: left;
+    font-style: normal;
+}
+
+.right {
+    text-align: right;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.title {
+    font-size: 300%;
+    margin: 5px
+}
+
+/*Links*/
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0037ff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkturquoise;
+}
+
+
+main a {
+    color:#0037ff;
+    background-color: #ffffff;
+}
+
+.main a:hover {
+    color: #0037ff;
+}
+
+main a:active {
+    color: darkturquoise;
+}
+
+/*Selections*/
+
+main a::selection,
+main h1::selection,
+header h1::selection,
+footer li::selection,
+footer p::selection,
+footer h2::selection,
+footer strong::selection{
+    color: #ffffff;
+    background-color: #0037ff;
+}
+
+main li::selection,
+main p::selection,
+main h2::selection,
+footer a::selection{
+    color: #0037ff;
+    background-color: #ffffff;
+}
+
+.path::selection {
+    color: #ffffff;
+    background-color: #4c4c4c;
+}
+
+/*Other*/
+
+h1, h2 {
+    font-family: 'Pusab';
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+}
+
+hr {
+    border: #0037ff 2px solid;
+    color: #0037ff;
+}
+
+.big-margin-bottom {
+    margin-bottom: 4em;
+}
+
+.path {
+    background-color: #5454ff;
+}
+
+#author {
+    color: rgb(255, 234, 207)
+}
