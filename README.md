@@ -1,6 +1,7 @@
 # Quiz Master App<!-- omit from toc -->
 
 ## Table of Contents<!-- omit from toc -->
+
 - [First Steps on Windows 10 / 11](#first-steps-on-windows-10--11)
 - [Personalization](#personalization)
   - [Custom songs](#custom-songs)
@@ -114,6 +115,7 @@ Note that you should choose fonts that support **Cyrillic letters** (as the defa
 ## Contact me
 
 To contact me:
-* [my Telegram](https://t.me/gild56)
-* [my Discord](https://discord.com/users/gild56)
-* [my Gmail](mailto:gild56gmd@gmail.com)
+
+- [my Telegram](https://t.me/gild56)
+- [my Discord](https://discord.com/users/gild56)
+- [my Gmail](mailto:gild56gmd@gmail.com)

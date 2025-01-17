@@ -1,10 +1,6 @@
 __pycache__/
-temp_copy/
-temp/
 logs/
 json/
-*.log
-*.todo
-*.zip
 *.spec
-zipper.py
+bin/
+TODO.md

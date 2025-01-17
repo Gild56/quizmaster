@@ -1,5 +1,7 @@
 # LICENCE
 
+## Version 1.0
+
 © Gild56
 
 This software, known as "Quiz Master", is provided under the following terms:
